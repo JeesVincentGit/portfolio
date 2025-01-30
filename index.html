@@ -300,7 +300,9 @@
         <h1 class="title">Connect</h1>
         <div class="contact-info-upper-container">
 
-          <form id="contactForm">
+          <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+
+            <input type="hidden" name="access_key" value="f295e434-2674-49dc-9806-df41b1e88faa">
             <input class="formInput" type="text" id="firstName" placeholder="First name">
             <span class="error" id="firstNameError" style="color: red;"></span>
         
