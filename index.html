@@ -303,16 +303,17 @@
           <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
 
             <input type="hidden" name="access_key" value="f295e434-2674-49dc-9806-df41b1e88faa">
-            <input class="formInput" type="text" id="firstName" placeholder="First name">
+            
+            <input class="formInput" name="First_Name" type="text" id="firstName" placeholder="First name">
             <span class="error" id="firstNameError" style="color: red;"></span>
         
-            <input class="formInput" type="text" id="secondName" placeholder="Second name">
+            <input class="formInput" name="Last_Name" type="text" id="secondName" placeholder="Second name">
             <span class="error" id="secondNameError" style="color: red;"></span>
         
-            <input type="email" class="formInput" id="email" placeholder="example@gmail.com">
+            <input type="email" name="Email" class="formInput" id="email" placeholder="example@gmail.com">
             <span class="error" id="emailError" style="color: red;"></span>
         
-            <input type="text" class="formInput" id="message" placeholder="Message">
+            <input type="text" name="Massage" class="formInput" id="message" placeholder="Message">
             <span class="error" id="messageError" style="color: red;"></span>
         
             <button class="btn btn-color-2 project-btn" type="submit">Send</button>
